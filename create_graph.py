@@ -10,7 +10,6 @@ def create_graph():
     X = list(df.iloc[:, 1])
     Y = list(df.iloc[:, 0])
     
-    # Plot the data using bar() method
     plt.bar(X, Y, color='g')
     plt.title("People and their age")
     plt.xlabel("People")
